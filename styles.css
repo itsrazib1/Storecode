@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom right, #2c2c2c, #a29c9c);
+    box-shadow: 0 4px 8px rgba(255, 223, 186, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flexcol{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+form {
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: linear-gradient(to right, #FF1493, #000000);
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-position 0.3s;
+}
+
+button:hover {
+    background-position: right;
+    font-weight: 600;
+}
+
+.meal-plan-table {
+    margin-top: 20px;
+}
+
+.meal-plan-table table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.meal-plan-table th, .meal-plan-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.meal-plan-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.meal-plan-table td {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.meal-plan-table img {
+    max-width: 100px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+/* Your existing CSS styles */
+
+.meal-plan-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.meal-plan-table th, .meal-plan-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.meal-plan-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.meal-plan-table td {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.meal-plan-table img {
+    max-width: 100px;
+    max-height: 80px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
